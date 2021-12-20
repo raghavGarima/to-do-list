@@ -1,0 +1,134 @@
+.container {
+  text-align: center;
+  /* border: 5px solid red; */
+  background-color: #d3e4f6;
+  border-radius: 7px;
+  width: 40%;
+  margin: 20rem 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.backContainer {
+  display: flex;
+  justify-content: center;
+}
+.searchBar {
+  /* border: 4px solid 387fd7;
+  margin-top: 2rem;
+  border-radius: 6px; */
+  margin-top: 2rem;
+  width: 80%;
+  height: 51px;
+  border-radius: 6px 0px 0px 6px;
+  border-color: #4a7dbb;
+  border-width: 3px;
+}
+
+.fa-plus {
+  font-size: 2rem;
+  /* padding: 0.5rem; */
+  padding: 1.1rem;
+  background-color: #387fd7;
+  color: white;
+  border-radius: 0px 7px 7px 0px;
+}
+
+.todoList {
+  width: 86%;
+  background-color: white;
+  color: #387fd7;
+  margin-top: 2.5rem;
+  height: 3rem;
+  text-align: center;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  padding-top: 10px;
+  border-radius: 0.6rem;
+}
+.HorizontalLine {
+  margin-top: 1.5rem;
+  border: 2px solid #99b9df;
+  width: 85%;
+  border-radius: 6px;
+  background-color: #99b9df;
+}
+/* .addTodoList {
+  background-color: #387fd7;
+  width: 70%;
+  height: 3rem;
+  text-align: center;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.5rem;
+  padding-top: 10px;
+  margin-bottom: 2rem;
+} */
+.todoText {
+  margin-left: 1.5rem;
+}
+.todoIcons {
+  color: #387fd7;
+  padding-top: 5px;
+  font-size: 2rem;
+  margin-right: 1.5rem;
+}
+
+@media screen and (max-width: 785px) {
+  .container {
+    width: 80%;
+  }
+  .searchBar {
+    width: 70%;
+  }
+  .todoList {
+    height: 2rem;
+    font-size: 1rem;
+  }
+  .todoText {
+    padding-bottom: 0.5rem;
+  }
+  .todoIcons {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  /* #main {margin-left: 216px;} */
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
